@@ -5,6 +5,7 @@ import jakarta.validation.constraints.*;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.util.Set;
 
 @Entity
 @Data
@@ -32,4 +33,7 @@ public class Satellite {
     public boolean isDecommissioned() {
         return decommissioned;
     }
+
+    @ManyToMany(mappedBy = "satellites")
+    private Set<Astronaut> astronauts;
 }
