@@ -114,6 +114,10 @@ POST /api/v1/astronauts
 
 ![img_1.png](img_1.png)
 
+
+❌ Failed because of validation :
+![img_3.png](img_3.png)
+
 ---
 
 ### ✅ API Test – Sort Astronauts
@@ -126,17 +130,23 @@ GET /api/v1/astronauts?sort=experienceYears&order=desc
 ---
 
 ### ✅ API Test – Update Satellite
-Block Update of Decommissioned Satellite
+
+❌Block Update of Decommissioned Satellite
 Endpoint:
 PUT /api/v1/satellites/3
 
 ![img_2.png](img_2.png)
+
+✅ Update of NON-decommissioned Satellite
+Endpoint:
+PUT /api/v1/satellites/3
+![img_4.png](img_4.png)
 ---
 
 ## Author
 
 **Eli Occansey**  
-Built as a coding assessment for Exam.
+Built as a coding assessment for APSD.
 
 ---
 
