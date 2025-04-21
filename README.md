@@ -139,7 +139,8 @@ PUT /api/v1/satellites/3
 
 ✅ Update of NON-decommissioned Satellite
 Endpoint:
-PUT /api/v1/satellites/3
+PUT /api/v1/satellites/2
+
 ![img_4.png](img_4.png)
 ---
 
